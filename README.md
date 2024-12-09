@@ -1,3 +1,14 @@
+## Setup
+
+The app uses `Python 3.10.5`.
+
+It doesn't use any other dependencies other than Pythons built-in modules, but just incase to ensure nothing is conflicting please set your virtual environment by [installing pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#installation) and then run the below commands:
+
+```shell
+pyenv virtualenv multiverse-venv
+pyenv local multiverse-venv
+```
+
 ## Running the app
 
 ```shell
